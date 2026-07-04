@@ -8,6 +8,7 @@ The company is designed to stay flexible beyond one category or channel. Future 
 
 - `foundation`: Company foundation, strategy, architecture, security, and operating documents.
 - `docs`: Product, business, engineering, operations, brand, and legal documentation.
+- `standards`: Company-wide engineering and documentation standards.
 - `platform`: Main monorepo for applications, backend services, infrastructure, and shared packages.
 - `knowledge`: AI memory, prompts, handoff notes, research notes, and future AI working context.
 - `.github`: Organization-wide profile, health files, and templates.
