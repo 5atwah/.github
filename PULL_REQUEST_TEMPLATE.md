@@ -7,7 +7,11 @@ Architecture Gate: REQUIRED | NOT_REQUIRED
 Architecture Authority: <official path>@<verified SHA or PENDING>
 Implementation Allowed: YES | NO
 Slice Risk: LOW | MEDIUM | HIGH
+Change Class: FEATURE_ONLY | DEPENDENCY_PATCH | DEPENDENCY_MAJOR | FRAMEWORK_OR_SDK | COMPILER_OR_TOOLCHAIN | LOCKFILE_ARCHITECTURE | SECURITY_REMEDIATION | CI_OR_DEPLOYMENT
+Change Safety: NOT_REQUIRED | LIGHT | FULL
 ```
+
+`LIGHT` keeps the Architecture Gate `NOT_REQUIRED` but requires the bounded dependency/tooling proof below. `FULL` requires an accepted Architecture Gate.
 
 ## Exact scope
 
@@ -15,6 +19,7 @@ Slice Risk: LOW | MEDIUM | HIGH
 - Head SHA:
 - Task/slice:
 - Changed files:
+- Expected manifest/lockfile effect, if applicable:
 - Explicit non-goals:
 
 ## What changed
@@ -26,6 +31,8 @@ Describe the smallest meaningful delta and why it is required. Reference officia
 - [ ] Exact repo/base/head/branch verified.
 - [ ] Complete diff reviewed; no unrelated files or generated output.
 - [ ] Relevant lint/typecheck/test/build/docs checks passed, or exact reason stated.
+- [ ] Any failure was reproduced unchanged, classified, isolated, repaired at root cause, and the original command rerun.
+- [ ] Dependency/toolchain work proves owner, consumer, peers, deliberate pins, expected files, lockfile budget, and external automation/deployment effects.
 - [ ] Exact PR-head CI completed successfully where configured, or exact no-CI review evidence recorded.
 - [ ] Architecture/contract/schema/security tests derive from accepted authority where required.
 - [ ] No unresolved review blocker or moved head.
@@ -34,6 +41,8 @@ Evidence:
 
 ```text
 Commands/checks:
+Failure class/root cause, if applicable:
+Dependency graph/lockfile proof, if applicable:
 CI run or no-CI evidence:
 Review ID/verdict:
 ```
