@@ -10,23 +10,17 @@ Use the official `5atwah` GitHub organization for company work. Do not continue 
 
 Before meaningful work, read:
 
+- `5atwah/knowledge/START_HERE_5ATWAH_CONTEXT_INDEX.md`
 - `5atwah/foundation/SOURCE_OF_TRUTH.md`
-- `5atwah/knowledge/AI_WORKING_RULES.md`
-- `5atwah/standards/README.md`
 - Relevant product docs in `5atwah/docs`
 - Relevant standards in `5atwah/standards`
 
-## AI and Codex Rules
+For engineering or AI-assisted work, also read `5atwah/standards/ai/AI_WORKING_STANDARDS.md`.
 
-AI tools and Codex sessions must:
+## AI-Assisted Contributions
 
-- Work only in official `5atwah` repositories for official work.
-- Check whether files already exist before creating them.
-- Update existing files instead of creating duplicates when appropriate.
-- Verify GitHub writes by reading files back after creation or update.
-- Return changed paths and commit hashes when files are changed.
-- Document unclear requirements as open questions instead of guessing.
-- Avoid exposing internal promotion, fraud, or abuse protection logic to customers.
+AI-assisted work starts at `5atwah/knowledge/START_HERE_5ATWAH_CONTEXT_INDEX.md` and follows
+`5atwah/standards/ai/AI_WORKING_STANDARDS.md`. This guide does not duplicate that policy.
 
 ## Before Coding
 
@@ -55,8 +49,8 @@ For product logic changes, link or mention the relevant documentation.
 
 ## Commit Style
 
-Use short, clear commit messages that describe the change. Examples:
+Use Conventional Commit messages. Examples:
 
-- `Add order logic documentation`
-- `Add inventory status rules`
-- `Update business settings plan`
+- `docs: add order logic documentation`
+- `fix: correct inventory status rule`
+- `feat: add business settings plan`

@@ -1,17 +1,17 @@
 # 5atwah
 
-5atwah is an Egyptian technology company building commerce and daily service infrastructure for Egypt.
-
-The company is designed to stay flexible beyond one category or channel. Future product lines may include market, minutes, business, AI, payments, cloud, and other infrastructure products.
+5atwah (خطوة) is a delivery and everyday-services brand. It helps a customer receive a
+product or access a service in one simple step. Technology is an internal operational
+enabler, not the customer-facing identity.
 
 ## Official Repositories
 
-- `foundation`: Company foundation, strategy, architecture, security, and operating documents.
-- `docs`: Product, business, engineering, operations, brand, and legal documentation.
-- `standards`: Company-wide engineering and documentation standards.
-- `platform`: Main monorepo for applications, backend services, infrastructure, and shared packages.
-- `knowledge`: AI memory, prompts, handoff notes, research notes, and future AI working context.
-- `.github`: Organization-wide profile, health files, and templates.
+- `foundation`: Company identity, long-term principles, repository roles, and source-of-truth routing.
+- `docs`: Product, business, operations, legal, and domain requirements.
+- `standards`: How engineering, architecture, security, testing, release, and AI work must be designed and verified.
+- `platform`: Active code monorepo — applications, backend, shared packages, schema/migrations, and runtime.
+- `knowledge`: Current AI routing, compact project memory, and workflow policy.
+- `.github`: Organization profile, issue/PR templates, and GitHub health files.
 
 ## Working Principles
 
