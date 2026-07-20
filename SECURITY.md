@@ -2,9 +2,9 @@
 
 ## Reporting Security Issues
 
-Do not open public issues for security vulnerabilities.
+Do not open public issues for security vulnerabilities or other sensitive security details.
 
-For now, report security concerns privately to the 5atwah maintainers through the approved internal channel. A public security contact can be added later when the company support and security mailboxes are fully configured.
+Report security vulnerabilities privately by email to security@5atwah.com. Include as much detail as you can (affected component, reproduction steps, impact) so we can investigate efficiently.
 
 ## Secret Handling
 
