@@ -6,6 +6,11 @@ labels: bug
 assignees: ""
 ---
 
+## Security Reports
+
+**Do not use this public bug template for security vulnerabilities or sensitive security details.**
+Follow the private reporting instructions in [SECURITY.md](https://github.com/5atwah/.github/blob/main/SECURITY.md).
+
 ## Summary
 
 Describe the problem clearly.
