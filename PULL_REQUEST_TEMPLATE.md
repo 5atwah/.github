@@ -11,6 +11,8 @@ Change Class: FEATURE_ONLY | DEPENDENCY_PATCH | DEPENDENCY_MAJOR | FRAMEWORK_OR_
 Change Safety: NOT_REQUIRED | LIGHT | FULL
 ```
 
+When the accepted Change Safety Standard (`5atwah/standards/engineering/CHANGE_SAFETY_STANDARD.md` section 2) applies, keep both `Change Class` and `Change Safety`, each with one of its section 3 values listed above; otherwise delete both lines.
+
 `LIGHT` keeps the Architecture Gate `NOT_REQUIRED` but requires the bounded dependency/tooling proof below. `FULL` requires an accepted Architecture Gate.
 
 ## Exact scope
