@@ -49,6 +49,14 @@ CI run or no-CI evidence:
 Review ID/verdict:
 ```
 
+## Open questions
+
+List open questions or follow-up work, or write `None`.
+
+## Related docs
+
+Link or name the official documents this change follows or updates.
+
 ## Safety and boundaries
 
 - [ ] No secrets, credentials, private keys, tokens, recovery codes, private customer data, or production values.
